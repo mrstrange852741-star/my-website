@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISAM</title>
+    <meta name="description" content="Ultra-premium modern SaaS platform for the next generation of enterprises.">
+
+    <!-- Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Icons (Lucide) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <i data-lucide="hexagon" class="logo-icon"></i>
+                ISAM
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <div class="nav-links">
+                    <a href="features.html">Features</a>
+                    <a href="integrations.html">Platform</a>
+                    <a href="testimonials.html">Testimonials</a>
+                </div>
+                <div class="nav-actions">
+                    <a href="#" class="btn btn-outline">Sign In</a>
+                    <a href="#cta" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle mobile menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <!-- Background Video -->
+
+        <div class="video-container">
+            <video autoplay loop muted playsinline class="hero-video">
+                <source src="assets/hero-video.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+
+        <div class="hero-content container reveal-up">
+            <h1 class="hero-title">
+                Build the Future, <br>
+                <span class="gradient-text">Without Limits.</span>
+            </h1>
+            <p class="hero-subtitle">
+                Experience the next generation of enterprise software. Fast, secure, and infinitely scalable. Designed
+                for the visionaries of tomorrow.
+            </p>
+            <div class="hero-cta">
+                <a href="#cta" class="btn btn-glow">Start Your Journey</a>
+                <a href="#features" class="btn btn-ghost">Explore Features <i data-lucide="arrow-right"></i></a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="section features-section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Engineered for <span class="gradient-text">Excellence</span></h2>
+                <p class="section-subtitle">A suite of powerful tools designed to accelerate your growth and dominate
+                    your market.</p>
+            </div>
+
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card glass-card reveal-up" style="transition-delay: 100ms;">
+                    <div class="feature-icon-wrapper">
+                        <i data-lucide="zap" class="feature-icon text-accent-1"></i>
+                    </div>
+                    <h3 class="feature-card-title">Lightning Fast</h3>
+                    <p class="feature-card-desc">Our edge-optimized architecture guarantees sub-millisecond response
+                        times globally.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card glass-card reveal-up" style="transition-delay: 200ms;">
+                    <div class="feature-icon-wrapper">
+                        <i data-lucide="shield" class="feature-icon text-accent-2"></i>
+                    </div>
+                    <h3 class="feature-card-title">Bank-Grade Security</h3>
+                    <p class="feature-card-desc">End-to-end encryption with zero-trust architecture to keep your data
+                        completely safe.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card glass-card reveal-up" style="transition-delay: 300ms;">
+                    <div class="feature-icon-wrapper">
+                        <i data-lucide="bar-chart-3" class="feature-icon text-accent-1"></i>
+                    </div>
+                    <h3 class="feature-card-title">Real-time Analytics</h3>
+                    <p class="feature-card-desc">Make decisions instantly with live streaming data and predictive AI
+                        modeling.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section id="showcase" class="section showcase-section">
+        <div class="container container-large">
+            <div class="showcase-content">
+                <div class="showcase-text reveal-up">
+                    <h2 class="section-title">See the unseen.<br>Control the chaos.</h2>
+                    <p class="section-subtitle">
+                        Our centralized dashboard gives you a god's eye view of your entire operation. Manage users,
+                        track revenue, and monitor health from a single, beautiful interface.
+                    </p>
+                    <ul class="showcase-list">
+                        <li><i data-lucide="check-circle-2"></i> Unrivaled user experience</li>
+                        <li><i data-lucide="check-circle-2"></i> Seamless integrations</li>
+                        <li><i data-lucide="check-circle-2"></i> 24/7 Priority support</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline" style="margin-top: 2rem;">Discover the Platform</a>
+                </div>
+
+                <div class="showcase-media reveal-up" style="transition-delay: 200ms;">
+                    <!-- Placeholder UI Mockup using CSS -->
+                    <div class="mockup-window glass-card">
+                        <div class="mockup-header">
+                            <div class="mac-dot" style="background: #ff5f56;"></div>
+                            <div class="mac-dot" style="background: #ffbd2e;"></div>
+                            <div class="mac-dot" style="background: #27c93f;"></div>
+                        </div>
+                        <div class="mockup-body">
+                            <!-- Faux Analytics UI -->
+                            <div class="faux-chart">
+                                <div class="faux-bar" style="height: 40%;"></div>
+                                <div class="faux-bar" style="height: 60%;"></div>
+                                <div class="faux-bar" style="height: 30%;"></div>
+                                <div class="faux-bar" style="height: 80%; background: var(--gradient-1);"></div>
+                                <div class="faux-bar" style="height: 50%;"></div>
+                                <div class="faux-bar" style="height: 90%;"></div>
+                                <div class="faux-bar" style="height: 70%;"></div>
+                            </div>
+                            <div class="faux-blocks">
+                                <div class="faux-block glass-light"></div>
+                                <div class="faux-block glass-light"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Decorative blur -->
+                    <div class="glow-orb"
+                        style="top: 20%; right: -10%; background: var(--accent-1); width: 300px; height: 300px;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Simple, <span class="gradient-text">Transparent</span> Pricing</h2>
+                <p class="section-subtitle">Choose the plan that fits your ambition. Scale as you grow with no hidden fees.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card glass-card reveal-up">
+                    <h3 class="feature-card-title">Starter</h3>
+                    <div style="font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem;">$0<span style="font-size: 1rem; color: var(--text-secondary);">/mo</span></div>
+                    <p class="feature-card-desc" style="margin-bottom: 2rem;">Perfect for individuals and small side projects.</p>
+                    <ul style="list-style: none; margin-bottom: 2rem; color: var(--text-secondary);">
+                        <li style="margin-bottom: 0.5rem;"><i data-lucide="check" style="width: 16px; color: var(--accent-2); margin-right: 0.5rem;"></i> Up to 3 projects</li>
+                        <li style="margin-bottom: 0.5rem;"><i data-lucide="check" style="width: 16px; color: var(--accent-2); margin-right: 0.5rem;"></i> Community support</li>
+                        <li style="margin-bottom: 0.5rem;"><i data-lucide="check" style="width: 16px; color: var(--accent-2); margin-right: 0.5rem;"></i> Basic analytics</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline" style="width: 100%;">Get Started</a>
+                </div>
+
+                <div class="feature-card glass-card reveal-up" style="border-color: var(--accent-1); box-shadow: 0 0 20px rgba(109, 40, 217, 0.2);">
+                    <div style="background: var(--gradient-1); color: white; padding: 0.25rem 1rem; border-radius: 50px; display: inline-block; font-size: 0.75rem; font-weight: 600; margin-bottom: 1rem;">MOST POPULAR</div>
+                    <h3 class="feature-card-title">Professional</h3>
+                    <div style="font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem;">$49<span style="font-size: 1rem; color: var(--text-secondary);">/mo</span></div>
+                    <p class="feature-card-desc" style="margin-bottom: 2rem;">For growing teams needing more power and depth.</p>
+                    <ul style="list-style: none; margin-bottom: 2rem; color: var(--text-secondary);">
+                        <li style="margin-bottom: 0.5rem;"><i data-lucide="check" style="width: 16px; color: var(--accent-2); margin-right: 0.5rem;"></i> Unlimited projects</li>
+                        <li style="margin-bottom: 0.5rem;"><i data-lucide="check" style="width: 16px; color: var(--accent-2); margin-right: 0.5rem;"></i> Priority 24/7 support</li>
+                        <li style="margin-bottom: 0.5rem;"><i data-lucide="check" style="width: 16px; color: var(--accent-2); margin-right: 0.5rem;"></i> Advanced team permissions</li>
+                    </ul>
+                    <a href="#" class="btn btn-glow" style="width: 100%;">Start Trial</a>
+                </div>
+
+                <div class="feature-card glass-card reveal-up">
+                    <h3 class="feature-card-title">Enterprise</h3>
+                    <div style="font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem;">Custom</div>
+                    <p class="feature-card-desc" style="margin-bottom: 2rem;">Bespoke solutions for global enterprises.</p>
+                    <ul style="list-style: none; margin-bottom: 2rem; color: var(--text-secondary);">
+                        <li style="margin-bottom: 0.5rem;"><i data-lucide="check" style="width: 16px; color: var(--accent-2); margin-right: 0.5rem;"></i> Dedicated account manager</li>
+                        <li style="margin-bottom: 0.5rem;"><i data-lucide="check" style="width: 16px; color: var(--accent-2); margin-right: 0.5rem;"></i> Custom SLA</li>
+                        <li style="margin-bottom: 0.5rem;"><i data-lucide="check" style="width: 16px; color: var(--accent-2); margin-right: 0.5rem;"></i> SSO & Advanced Security</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline" style="width: 100%;">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials-section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Trusted by <span class="gradient-text">Pioneers</span></h2>
+                <p class="section-subtitle">Join thousands of forward-thinking companies building the future on our
+                    platform.</p>
+            </div>
+
+            <div class="testimonials-slider reveal-up">
+                <div class="testimonial-card glass-card">
+                    <div class="rating">
+                        <i data-lucide="star" class="star filled"></i>
+                        <i data-lucide="star" class="star filled"></i>
+                        <i data-lucide="star" class="star filled"></i>
+                        <i data-lucide="star" class="star filled"></i>
+                        <i data-lucide="star" class="star filled"></i>
+                    </div>
+                    <p class="testimonial-text">"Switching to Nexora was a paradigm shift for our engineering team. The
+                        developer experience is unmatched."</p>
+                    <div class="testimonial-author">
+                        <div class="avatar" style="background-image: url('https://i.pravatar.cc/150?img=32');"></div>
+                        <div class="author-info">
+                            <h4>Sarah Jenkins</h4>
+                            <span>CTO, TechNova</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-card">
+                    <div class="rating">
+                        <i data-lucide="star" class="star filled"></i>
+                        <i data-lucide="star" class="star filled"></i>
+                        <i data-lucide="star" class="star filled"></i>
+                        <i data-lucide="star" class="star filled"></i>
+                        <i data-lucide="star" class="star filled"></i>
+                    </div>
+                    <p class="testimonial-text">"The dashboard alone saved us 20 hours a week. It's beautiful, fast, and
+                        gives us exactly what we need."</p>
+                    <div class="testimonial-author">
+                        <div class="avatar" style="background-image: url('https://i.pravatar.cc/150?img=11');"></div>
+                        <div class="author-info">
+                            <h4>Marcus Chen</h4>
+                            <span>VP Product, Elevate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-card">
+                    <div class="rating">
+                        <i data-lucide="star" class="star filled"></i>
+                        <i data-lucide="star" class="star filled"></i>
+                        <i data-lucide="star" class="star filled"></i>
+                        <i data-lucide="star" class="star filled"></i>
+                        <i data-lucide="star" class="star filled"></i>
+                    </div>
+                    <p class="testimonial-text">"Scale was our biggest fear. Nexora handled our massive launch spike
+                        without breaking a sweat."</p>
+                    <div class="testimonial-author">
+                        <div class="avatar" style="background-image: url('https://i.pravatar.cc/150?img=47');"></div>
+                        <div class="author-info">
+                            <h4>Elena Rodriguez</h4>
+                            <span>Founder, SyncSpace</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="cta" class="section cta-section">
+        <div class="container">
+            <div class="cta-box glass-card reveal-up">
+                <!-- Decorative element -->
+                <div class="glow-orb"
+                    style="top: -50%; left: 20%; background: var(--accent-2); width: 400px; height: 400px; opacity: 0.2;">
+                </div>
+
+                <h2 class="section-title">Ready to Elevate Your Business?</h2>
+                <p class="section-subtitle">Join the elite rank of companies utilizing next-gen infrastructure.</p>
+                <div class="cta-actions">
+                    <a href="#" class="btn btn-glow btn-large">Start free trial</a>
+                    <p class="cta-note">No credit card required. 14-day free trial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <i data-lucide="hexagon" class="logo-icon"></i>
+                        ISAM
+                    </a>
+                    <p class="footer-desc">Building the infrastructure of tomorrow, today. Secure, scalable, and
+                        beautifully designed.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-btn"><i data-lucide="twitter"></i></a>
+                        <a href="#" class="social-btn"><i data-lucide="github"></i></a>
+                        <a href="#" class="social-btn"><i data-lucide="linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="integrations.html">Integrations</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="changelog.html">Changelog</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="cookies.html">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nexora Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | ISAM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .contact-form { max-width: 600px; margin: 0 auto; }
+        .form-group { margin-bottom: 1.5rem; }
+        .form-label { display: block; margin-bottom: 0.5rem; color: var(--text-primary); font-weight: 500; }
+        .form-input {
+            width: 100%;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .form-input:focus {
+            outline: none;
+            border-color: var(--accent-1);
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0 0 15px rgba(109, 40, 217, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content"><a href="index.html" class="logo">ISAM</a></div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <div class="section-header reveal-up" style="margin-bottom: 0;">
+                <h1 class="section-title">Get in <span class="gradient-text">Touch</span></h1>
+                <p class="section-subtitle">Have questions? We're here to help you build better infrastructure.</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="section" style="padding-top: 2rem;">
+        <div class="container">
+            <form class="contact-form glass-card reveal-up" style="padding: 3rem;">
+                <div class="form-group">
+                    <label class="form-label">Full Name</label>
+                    <input type="text" class="form-input" placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Work Email</label>
+                    <input type="email" class="form-input" placeholder="john@company.com">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Message</label>
+                    <textarea class="form-input" rows="5" placeholder="How can we help?"></textarea>
+                </div>
+                <button type="submit" class="btn btn-glow" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">ISAM</a>
+                    <p class="footer-desc">Building the infrastructure of tomorrow, today. Secure, scalable, and beautifully designed.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="integrations.html">Integrations</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="changelog.html">Changelog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="cookies.html">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ISAM Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>

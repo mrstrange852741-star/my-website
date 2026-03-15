@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | ISAM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo"><i data-lucide="hexagon" class="logo-icon"></i> ISAM</a>
+            <div class="nav-menu" id="navMenu">
+                <!-- Standard Links -->
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn"><i data-lucide="menu"></i></button>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <div class="section-header reveal-up" style="margin-bottom: 0;">
+                <h1 class="section-title">Insights & <span class="gradient-text">Updates</span></h1>
+                <p class="section-subtitle">Deep dives into the technical details and vision of ISAM.</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="section" style="padding-top: 2rem;">
+        <div class="container">
+            <div class="features-grid">
+                <article class="feature-card glass-card reveal-up">
+                    <div style="color: var(--accent-1); font-size: 0.875rem; font-weight: 600; margin-bottom: 0.5rem;">ENGINEERING</div>
+                    <h3 class="feature-card-title">Scaling to 10M concurrent users</h3>
+                    <p class="feature-card-desc">How we optimized our WebSocket cluster for massive scale.</p>
+                </article>
+                <article class="feature-card glass-card reveal-up">
+                    <div style="color: var(--accent-2); font-size: 0.875rem; font-weight: 600; margin-bottom: 0.5rem;">DESIGN</div>
+                    <h3 class="feature-card-title">Dark Mode Architecture</h3>
+                    <p class="feature-card-desc">Building a color system that works across every device and OS.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-brand"><a href="index.html" class="logo">ISAM</a></div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
